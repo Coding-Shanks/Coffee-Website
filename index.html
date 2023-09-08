@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Website</title>
+    <!-- Custom css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+
+<body>
+    <!-- Header Section -->
+    <div class="header" id="home">
+        <nav id="navbar">
+            <a href="#home" class="logo">COFFEE HUB <span>.</span></a>
+            <div class="links" id="nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#blog">Blog</a>
+                <a href="#service">Services</a>
+                <a href="#team">Team</a>
+                <a href="../Coffee Website/resistation form/index.php">Contact</a>
+            </div>
+            <div class="fas fa-bars" id="menu-btn" onclick="openmenu()"></div>
+            <div class="fa-solid fa-xmark" id="close" onclick="closemenu()"></div>
+        </nav>
+        <div class="content" data-aos="zoom-in">
+            <h3>Now you can feel the energy</h3>
+            <h1>start your day with <br>a coffee</h1>
+            <button class="btn">Buy Now</button>
+        </div>
+    </div>
+    <!-- Header Section End -->
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="image" data-aos="fade-right">
+
+            </div>
+            <div class="about-content" data-aos="fade-left">
+                <h1>What makes our coffee special?</h1>
+                <h3>A blend of dedication, expertise, and a deep love for the perfect cup of coffee.</h3>
+                <p>In a world where coffee is more than just a beverage, our coffee company stands out as a symbol of
+                    passion, quality, and sustainability. We invite you to explore the world of coffee with us,
+                    one cup at a time. Join us on this journey, and discover what makes our coffee truly special –
+                    We take pride in our commitment to quality, sustainability, and a passion for the
+                    perfect cup of coffee.
+                </p>
+                <button class="btn" style="color: black;">About Us</button>
+
+            </div>
+        </div>
+    </section>
+    <!-- About Section End-->
+
+    <!-- Blog Section -->
+    <section class="blog" id="blog">
+        <h1 class="heading">Our <span>Blog</span></h1>
+        <p class="heading-description">Read our blog and know more about our latest update..</p>
+        <div class="container">
+            <div class="post">
+                <div class="blog-img">
+                    <img src="img/post1.jpg" alt="">
+                    <span>21 <br> Jun </span>
+                </div>
+                <div class="blog-content">
+                    <h3>By admin |<span> Abhishek Ranaut</span></h3>
+                    <h1>Sourcing the Finest Beans</h1>
+                    <p>At the heart of every great cup of coffee are the beans,
+                        and we leave no stone unturned in sourcing the finest ones.
+                        We work closely with coffee growers from around the world,
+                        building strong, mutually beneficial relationships.
+                        This allows us to select only the highest quality,
+                        ethically sourced beans, ensuring the perfect foundation for our coffee.
+                    </p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="blog-img">
+                    <img src="img/post2.jpg" alt="">
+                    <span>21 <br> Jun </span>
+                </div>
+                <div class="blog-content">
+                    <h3>By admin |<span> Abhishek Ranaut</span></h3>
+                    <h1>Artisanal Roasting Process</h1>
+                    <p>Roasting coffee is an art form, and our roasters are true artisans.
+                        They meticulously craft each batch of coffee, bringing out the unique
+                        flavors and aromas of our beans. Our commitment to small-batch roasting
+                        ensures that every cup you enjoy is a testament to the dedication and
+                        expertise of our team.
+                    </p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="blog-img">
+                    <img src="img/post3.jpg" alt="">
+                    <span>21 <br> Jun </span>
+                </div>
+                <div class="blog-content">
+                    <h3>By admin |<span> Abhishek Ranaut</span></h3>
+                    <h1>Diverse Coffee Offerings</h1>
+                    <p>We understand that coffee preferences are as diverse as the people who enjoy it. That's why we
+                        offer an extensive range of coffee options, from single-origin beans that showcase the unique
+                        flavors of a specific region to meticulously crafted blends that cater to various tastes.
+                        Whether you're a fan of a bold espresso or a smooth pour-over, we have something for everyone.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section End-->
+    <!-- Service Section -->
+    <section class="service" id="service">
+        <h1 class="heading">Our <span>Services</span></h1>
+        <p class="heading-description">We deliver our products free door to door 24x7 = 360</p>
+        <div class="container">
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="img/menu-1.jpg" alt="">
+                </div>
+                <div class="service-content">
+                    <h3>Ice Latte</h3>
+                    <p>A chilled coffee beverage that's made by mixing espresso with chilled milk, simple syrup, and ice
+                        cubes.</p>
+                    <button>$49</button>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="img/menu-2.jpg" alt="">
+                </div>
+                <div class="service-content">
+                    <h3>Caramel Macchiato</h3>
+                    <p>A slightly sweeter flavor because of the vanilla syrup added. It also has a more robust
+                        espresso-forward flavor.</p>
+                    <button>$49</button>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="img/menu-3.jpg" alt="">
+                </div>
+                <div class="service-content">
+                    <h3>White Mocha</h3>
+                    <p>A blend of espresso coffee, white chocolate and milk.</p>
+                    <button>$49</button>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="img/menu-4.jpg" alt="">
+
+                </div>
+                <div class="service-content">
+                    <h3>Frappe</h3>
+                    <p>A Greek iced coffee drink made from instant coffee (generally, spray-dried Nescafé), water,
+                        sugar, and milk.</p>
+                    <button>$49</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Service Section End -->
+
+
+
+    <!-- Team Section -->
+
+    <section class="team" id="team">
+        <h1 class="heading"> Our <span>Team</span></h1>
+        <p class="heading-description"> Long lasting tradition & true love for coffee</p>
+        <div class="container">
+            <div class="team-box">
+                <div class="team-img">
+                    <img src="img/profile_1.jpg" alt="">
+                </div>
+                <div class="team-content">
+                    <h3>William</h3>
+                    <p>Cook</p>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-box">
+                <div class="team-img">
+                    <img src="img/profile_4.png" alt="">
+                </div>
+                <div class="team-content">
+                    <h3>Amber James</h3>
+                    <p>Cook</p>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-box">
+                <div class="team-img">
+                    <img src="img/profile_3.jpg" alt="">
+                </div>
+                <div class="team-content">
+                    <h3>Rosi</h3>
+                    <p>Manager</p>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-box">
+                <div class="team-img">
+                    <img src="img/profile_2.jpg" alt="">
+                </div>
+                <div class="team-content">
+                    <h3>Rahul Pal</h3>
+                    <p>Cook</p>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team Section End-->
+
+    <!-- Contact Section  -->
+    <section class="contact" id="contact">
+        <h1 class="heading">Contact <span>Us</span></h1>
+        <p class="heading-description">We are always here for you...</p>
+        <div class="container">
+            <div class="contact-box">
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <h2>Email address <br> <span>Send email anytime</span></h2>
+                </div>
+                <div>
+                    <p>ranauta294@gmail.com</p>
+                    <i class="fa-solid fa-right-long"></i>
+                </div>
+            </div>
+            <div class="contact-box">
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h2>Address <br> <span>Find Us</span></h2>
+                </div>
+                <div>
+                    <p>himachal pradesh , India</p>
+                    <i class="fa-solid fa-right-long"></i>
+                </div>
+            </div>
+            <div class="contact-box">
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <h2>Call Us <br> <span>Call us anytime</span></h2>
+                </div>
+                <div>
+                    <p>+912334567890</p>
+                    <i class="fa-solid fa-right-long"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section End -->
+
+
+
+
+    <!-- Footer Section -->
+    <section class="footer">
+
+
+        <div class="container">
+            <div class="footer-box">
+                <h3>about us </h3>
+                <p>A blend of dedication, expertise, and a deep love for the perfect cup of coffee.</p>
+                <p>Copyrights &copy; 2023 All rights reserved By Abhishek Ranaut </p>
+
+            </div>
+            <div class="footer-box">
+                <h3>Newsletter</h3>
+                <p>Stay updated with us</p>
+                <form>
+                    <input type="email" name="email" placeholder="ranauta294@gmail.com">
+                    <button type="submit"><i class="fa-solid fa-right-long"></i></button>
+                </form>
+            </div>
+            <div class="footer-box">
+                <h3>Follow Us</h3>
+                <p>Connect With Us On:</p>
+                <div>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section End -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
